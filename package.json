@@ -1,0 +1,30 @@
+{
+  "name": "digbil-bank",
+  "description": "A bank engine that allows money transfer between accounts",
+  "author": "Joseph Yang <sirjosephyang@gmail.com>",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Formosan/digbil-bank.git"
+  },
+  "dependencies": {
+    "async": "0.x.x",
+    "mongoose": "3.x.x",
+    "optimist": "0.2.x"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "main": "./lib/bank.js",
+  "engine": {
+    "node": ">=0.6.19"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "80741c000ce25526c91283c85ddeac03b35beee1",
+  "keywords": [
+    "digbil",
+    "bank"
+  ],
+  "license": "MIT"
+}
